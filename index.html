@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SABE</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-fixed/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <link href="navbar-top-fixed.css" rel="stylesheet">
+
+    <link rel="icon" href="./favicon.ico" />
+  </head>
+  <body>
+   
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">SABE</a>
+        <div class="d-flex">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Inscreva-se</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#2">Minicursos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#3">Programação</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#4">Sobre</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Submissão
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Resumo.docx">Modelo Resumo</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="Banner.pptx">Modelo Banner</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Edital.pdf" target="_blank">Edital</a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container-lg">
+    <section>
+      <div class="bg-light p-5 rounded" align="center">
+        <div class="col-xs-6 col-md-4 justify-content-center">
+          <img src="./logo.png" class="img-fluid">
+        </div>
+        <h3>Semana Acadêmica<br>Biopark Educação<br>Farmácia</h3>
+        <a class="btn btn-lg btn-outline-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfw6Q2Ztvxu40Q_CuZB6rL1P_uOZvr0GCvOpRPcBxcGj46l6Q/viewform?usp=sf_link" target="_blank" role="button">Inscreva-se</a>
+      </div>
+    </section>
+
+    <section id="2">
+      <div class="bg-light p-5 rounded" align="center">
+        <h3>Minicursos</h3>
+        <br>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h6 class="card-title"><strong>Farmacêutico Clínico</strong></h6>
+                  <p class="card-text">Farmacêutica Bioquímica<br>Michele Dalanhol</p>
+                  <p class="card-text">
+                    Local: Edifício Charles Darwin, 
+                    <br>
+                    Sala 1º Andar
+                    <br>
+                    Data: 20/10/2021
+                    <br>
+                    Horário: 13:30 às 17:30
+                    <br>
+                    25 Vagas 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h6 class="card-title"><strong>Técnicas Anatômicas</strong></h6>
+                  <p class="card-text">Dra. Dayane Sabec<br>Dr. Kleber Pereira<br></p>
+                  <p class="card-text">
+                    Local: Edifício Charles Darwin<br>Laboratório 2º Andar
+                    <br>
+                    Data: 20/10/2021
+                    <br>
+                    Horário: 13:30 às 17:30
+                    <br>
+                    20 Vagas 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h6 class="card-title"><strong>Biofilmes Antimicrobianos</strong></h6>
+                  <p class="card-text">Msc. Felipe Veloso<br><br></p>
+                  <p class="card-text">
+                    Local: Edifício Charles Darwin<br>Laboratório 2º Andar
+                    <br>
+                    Data: 20/10/2021
+                    <br>
+                    Horário: 13:30 às 17:30
+                    <br>
+                    25 Vagas 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h6 class="card-title"><strong>Primeiros Socorros</strong></h6>
+                  <p class="card-text">Capitão Zarpellon<br>Bombeiro Militar</p>
+                  <p class="card-text">
+                    Local: Edifício Charles Darwin<br>Sala 1° Andar
+                    <br>
+                    Data: 21/10/2021
+                    <br>
+                    Horário: 8:00 às 12:00
+                    <br>
+                    40 Vagas 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h6 class="card-title"><strong>Produção, Controle de Qualidade e Análise Sensorial de Álcool em Gel</strong></h6>
+                  <p class="card-text">Dra. Ivonete Rossi<br>Dr. Rodrigo Sequinel<br>Mr. Guilherme Felipe Lenz</p>
+                  <p class="card-text">
+                    Local: Edifício Charles Darwin<br>Laboratório 2º Andar
+                    <br>
+                    Data: 20/10/2021
+                    <br>
+                    Horário: 13:30 às 17:30
+                    <br>
+                    25 Vagas 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h6 class="card-title"><strong>Probióticos: Os Microrganismos que Cuidam da Nossa Saúde</strong></h6>
+                  <p class="card-text">Felipe Biosamer</p>
+                  <p class="card-text">
+                    Local: Edifício Charles Darwin<br>Laboratório 2º Andar
+                    <br>
+                    Data: 21/10/2021
+                    <br>
+                    Horário: 8:00 às 12:00
+                    <br>
+                    30 Vagas 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h6 class="card-title"><strong>Estética</strong></h6>
+                  <p class="card-text">Farmacêutica<br>Mariana Caroline Maccari</p>
+                  <p class="card-text">
+                    Local: Edifício Charles Darwin<br>Laboratório 2º Andar
+                    <br>
+                    Data: 21/10/2021
+                    <br>
+                    Horário: 8:00 às 12:00
+                    <br>
+                    25 Vagas 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h6 class="card-title"><strong>Micropropagação de Plantas de Interesse Farmacêutico</strong></h6>
+                  <p class="card-text">Dr. Douglas Steinmacher</p>
+                  <p class="card-text">
+                    Local: Edifício Charles Darwin<br>Laboratório 2º Andar
+                    <br>
+                    Data: 21/10/2021
+                    <br>
+                    Horário: 8:00 às 12:00
+                    <br>
+                    25 Vagas 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="3">
+      <div class="bg-light p-5 rounded" align="center">
+        <h3>Programação</h3>
+        <br>
+
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Dia 20</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Dia 21</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Dia 22</button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Horário</th>
+                  <th scope="col">Local</th>
+                  <th scope="col">Atividade</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>07:30 - 08:15</td>
+                  <td>UFPR</td>
+                  <td>Credenciamento Alunos</td>
+                </tr>
+                <tr>
+                  <td>08:15 - 09:30</td>
+                  <td>Anfiteatro UFPR</td>
+                  <td>Palestra Dr. Luiz Donaduzzi E Victor Donaduzzi</td>
+                </tr>
+                <tr>
+                  <td>09:30 - 10:00</td>
+                  <td>Anfiteatro UFPR</td>
+                  <td>Banda da Prati</td>
+                </tr>
+                <tr>
+                  <td>10:00 - 10:20</td>
+                  <td>UFPR</td>
+                  <td>Coffee Break</td>
+                </tr>
+                <tr>
+                  <td>10:20 - 12:00</td>
+                  <td>Anfiteatro UFPR</td>
+                  <td>Palestra Dra Emy Ishii Iwamoto (UEM)</td>
+                </tr>
+                <tr>
+                  <td colspan="4">Horário Almoço</td>
+                </tr>
+                <tr>
+                  <td rowspan="5">13:30 - 15:30</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Sala 1º Andar</td>
+                  <td>Minicurso O Farmacêutico Clínico</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Minicurso Técnicas Anatômicas</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Minicurso Biofilmes Antimicrobianos</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Minicurso Produção, Controle de Qualidade e Análise Sensorial de Álcool em Gel</td>
+                </tr>
+                <tr>
+                  <td>15:30 - 15:50</td>
+                  <td>Edifício Charles Darwin<br>Sala 1º Andar</td>
+                  <td>Coffee Break</td>
+                </tr>
+                <tr>
+                  <td rowspan="5">15:50 - 17:30</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Sala 1º Andar</td>
+                  <td>Continuação Minicurso O Farmacêutico Clínico</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Continuação Minicurso Técnica Anatômicas</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Continuação Minicurso Biofilmes Antimicrobianos</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Continuação Minicurso Produção, Controle de Qualidade e Análise Sensorial de Álcool em Gel</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Horário</th>
+                  <th scope="col">Local</th>
+                  <th scope="col">Atividade</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="6">08:00 - 10:00</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Sala 1º Andar</td>
+                  <td>Minicurso Primeiros Socorros</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Minicurso Probióticos: Os Microrganismos que Cuidam da Nossa Saúde</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Minicurso Estética</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Micropropagação de Plantas de Interesse Farmacêutico</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Continuação Minicurso Biofilmes Antimicrobianos</td>
+                </tr>
+                <tr>
+                  <td>10:00 - 10:20</td>
+                  <td>Edifício Charles Darwin<br>Sala 1º Andar</td>
+                  <td>Coffee Break</td>
+                </tr>
+                <tr>
+                  <td rowspan="5">10:20 - 12:00</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Sala 1º Andar</td>
+                  <td>Continuação Minicurso Primeiros Socorros</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Continuação Minicurso Probióticos: Os Microrganismos que Cuidam da Nossa Saúde</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Continuação Minicurso Estética</td>
+                </tr>
+                <tr>
+                  <td>Edifício Charles Darwin<br>Laboratórios 2º Andar</td>
+                  <td>Continuação Minicurso Micropropagação de Plantas de Interesse Farmacêutico</td>
+                </tr>
+                <tr>
+                  <td colspan="4">Horário Almoço</td>
+                </tr>
+                <tr>
+                  <td>13:30 - 15:15</td>
+                  <td>Anfiteatro UFPR</td>
+                  <td>Palestra Atuação do Farmacêutico na Perícia Forence - Dra. Franciele Fiorentin</td>
+                </tr>
+                <tr>
+                  <td>15:15 - 15:35</td>
+                  <td>UFPR</td>
+                  <td>Coffee Break</td>
+                </tr>
+                <tr>
+                  <td>15:35 - 17:20</td>
+                  <td>Anfiteatro UFPR</td>
+                  <td>Palestra Canabidiol - Dr. Liberato Brum</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Horário</th>
+                  <th scope="col">Local</th>
+                  <th scope="col">Atividade</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>08:00 - 09:45</td>
+                  <td>Anfiteatro UFPR</td>
+                  <td>Palestra Farmacêutico na Oncologia - Farmacêutica Giovana Lullo Olsen (IGAST -CIMA)</td>
+                </tr>
+                <tr>
+                  <td>09:45 - 10:00</td>
+                  <td>Edifício Charles Darwin Sala 1º Andar</td>
+                  <td>Coffee Break</td>
+                </tr>
+                <tr>
+                  <td>10:00 - 12:00</td>
+                  <td>Edifício Charles Darwin Salas 1º Andar</td>
+                  <td>Apresentação de Banners</td>
+                </tr>
+                <tr>
+                  <td colspan="4">Horário Almoço</td>
+                </tr>
+                <tr>
+                  <td>13:30 - 15:30</td>
+                  <td>Edifício Charles Darwin Salas 1º Andar</td>
+                  <td>Apresentação de Banners</td>
+                </tr>
+                <tr>
+                  <td>15:30 - 15:45</td>
+                  <td>Edifício Charles Darwin Sala 1º Andar</td>
+                  <td>Coffee Break</td>
+                </tr>
+                <tr>
+                  <td>13:30 - 15:15</td>
+                  <td>Anfiteatro UFPR</td>
+                  <td>Roda de Conversa/Diversidade - Felipe, Ilo</td>
+                </tr>
+                <tr>
+                  <td>16:30 - 17:30</td>
+                  <td>Anfiteatro</td>
+                  <td>Premiação</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="4">
+      <div class="bg-light p-5 rounded" align="center">
+        <h3>Sobre</h3>
+        <br>
+        <p align="justify">
+          <strong>A SABE</strong>
+          <br>
+          A Semana Acadêmica do Biopark Educação (SABE) é um evento de interação e troca de conhecimento 
+          entre os alunos do Biopark. O nome ‘’SABE’’, além de ser a sigla do evento, evidencia que o 
+          saber é de extrema importância para o Biopark Educação e que o objetivo primário de todas as 
+          ações da instituição é levar mais conhecimento e capacitação às pessoas. A primeira edição da 
+          SABE é voltada ao curso de graduação em Farmácia do Biopark e ocorrerá nos dias 20, 21 e 22 de 
+          outubro de 2021, com início às 7h30 e término às 17h30, em que os graduandos terão acesso a 
+          palestras e oficinas voltadas à sua área.
+        </p>
+        <p align="justify">
+          <strong>BREVE HISTÓRICO</strong> 
+          <br>
+          Em 2016, com o incentivo da Dra Carmen Donaduzzi e do Dr Luiz Donaduzzi, iniciou-se a construção 
+          do Parque Científico e Tecnológico de Biociências, o Biopark, com o propósito de beneficiar a 
+          região oeste do Paraná. O Biopark Educação formou sua primeira turma do curso técnico em 
+          Farmácia no ano de 2018 e, em 2019, por meio de uma parceria com a Centro Universitário 
+          Uniamérica, iniciou-se a primeira turma de graduação em Farmácia, que contou com 48 alunos. 
+          Atualmente, existem 4 turmas de graduação em Farmácia na instituição, cursando o 2°, o 4°, o 5° 
+          e o 6° semestres. Com uma proposta inovadora, o curso é trabalhado por meio de uma metodologia 
+          ativa, que consiste em trazer um contato mais direto com situações reais, por meio de 
+          experimentação e aulas interativas.
+        </p>
+        <p align="justify">
+          <strong>TEMÁTICA CENTRAL</strong>
+          <br>
+          A SABE trabalhará com saúde, inovação e tecnologia. A maior ênfase será dada para esses polos 
+          dentro da graduação em Farmácia e em algumas das diversas áreas de atuação dos farmacêuticos, 
+          levando os alunos a conhecerem mais sobre as suas possíveis atuações.
+        </p>
+        <p align="justify">
+          <strong>OBJETIVO</strong>
+          <br>
+          A troca de conhecimentos que ocorre durante o evento é enriquecedora para todos os alunos e 
+          ajuda na consolidação do que foi aprendido em sala, pois, em uma semana acadêmica, os discentes 
+          têm a oportunidade de ensinar e de aprender. Além disso, o contato com diversas áreas da 
+          profissão expande a visão dos alunos e os incentiva a continuar buscando conhecimento.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <p class="text-center text-muted">Semana Acadêmica Organizada pelo 2° Semestre de Farmácia</p>
+    </footer>
+  </div>
+
+  <footer>
+
+  </footer>
+
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
